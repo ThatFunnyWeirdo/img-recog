@@ -1,0 +1,29 @@
+body
+{
+background-color: lightblue;
+}
+
+.btn-info
+{
+    width: 60%;
+    height: 5%;
+}
+
+#live_webcam_holder
+{
+    border: dashed - white;
+     width:360px;
+    height: 250px;
+}
+
+#captured_webcam_holder
+{
+    border: dashed - white;
+     width:360px;
+    height: 250px;
+}
+.btn-primary
+{
+    width:10%;
+    height:3%;
+}

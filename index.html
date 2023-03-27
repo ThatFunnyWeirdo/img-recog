@@ -1,0 +1,40 @@
+<html>
+    <title>
+        Facial Recognition
+    </title>
+ 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   
+<body>
+<center>
+<h1> Facial Recognition Web App!</h1>
+<br>
+<br>
+<label> Model is trained to identify the following things:</label>
+<br>
+<br>
+<button class="btn btn-info"> Mother</button>
+<br>
+<br>
+<button class="btn btn-info"> Father</button>
+<br>
+<br>
+<button class="btn btn-info"> Daughter</button>
+
+<div id="live_webcam_holder"> </div>
+
+<button class="btn btn-primary" onclick="capture();"> Capture Image</button>
+
+<div id="captured_webcam_holder"></div>
+
+<button class="btn btn-primary" onclick="identify();">Identify Image</button>
+
+</center>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
